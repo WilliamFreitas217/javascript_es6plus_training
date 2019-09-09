@@ -1,0 +1,16 @@
+{
+  "name": "javascript_es6plus_training",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:WilliamFreitas217/javascript_es6plus_training.git",
+  "author": "williamfreitas217 <williamdov.c.f@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  }
+}
